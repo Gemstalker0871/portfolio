@@ -29,9 +29,9 @@ const Footer = () => {
         
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-                Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+                 Ready to <span className='text-purple'>build</span> something awesome together?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out today and Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, </p>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Let’s code, collaborate, and bring your ideas to life. Reach out and let's get started. </p>
              <MagicButton 
             title={copied ? 'Email copied' : 'Copy my email'}
             icon={<IoCopyOutline />}

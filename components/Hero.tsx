@@ -44,7 +44,7 @@ const Hero = () => {
     />
 
     <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-      Hey there I&apos;m an amazing &#40;Honestly&#41; Developer based in India
+      Hey there, I&apos;m an amazing &#40;Honestly&#41; Developer based in India
     </p>
 
      <div className="flex gap-4 mt-4">
