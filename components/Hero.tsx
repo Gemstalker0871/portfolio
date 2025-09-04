@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
 
-        <div className="flex h-screen w-full items-center justify-center bg-white dark:bg-yellow-800 absolute top-0 left-0">
+        <div className="flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 absolute top-0 left-0">
             <div
                 className={cn(
                 "absolute inset-0",
@@ -26,7 +26,7 @@ const Hero = () => {
                 )}
             />
             {/* Radial gradient for the container to give a faded look */}
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black"></div>
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black-100"></div>
            
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center relative my-20 z-10 gap-10 -mt-10">
@@ -35,16 +35,16 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10 items-start md:items-start">
   <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center md:items-start justify-center">
     <h2 className="uppercase tracking-widest text-xs text-center md:text-left text-blue-100 max-w-80">
-      Dynamic Web Magic with Next.js
+      Coding Enthusiast
     </h2>
 
     <TextGenerateEffect
       className="text-center md:text-left text-[40px] md:text-5xl lg:text-6xl"
-      words="Transforming Concepts into Seamless User Experiences"
+      words="Hello I&apos;m Sambhav Chugh"
     />
 
     <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-      Hey I&apos;m Sam, an amazing Developer based in India
+      Hey there I&apos;m an amazing &#40;Honestly&#41; Developer based in India
     </p>
 
      <div className="flex gap-4 mt-4">
@@ -55,7 +55,7 @@ const Hero = () => {
         position="right"
       />
     </a>
-    <a href="#projects">
+    <a target="_blank" href="https://drive.google.com/file/d/1d9INmPZ2fdiEUKpz7HyQOHE17hILkNZo/view?usp=sharing">
       <MagicButton
         title="Download My Resume"
         icon={<FaDownload />}
@@ -66,18 +66,13 @@ const Hero = () => {
   </div>
 </div>
         <div className="w-full md:w-1/2 flex items-center justify-center z-10 py-6 md:py-0">
-  <div className="w-full sm:w-[90%] max-w-[300px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] relative overflow-hidden p-[2px]" 
+  <div className="w-full sm:w-[80%] max-w-[300px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] relative overflow-hidden p-[2px]" 
      style={{ borderRadius: "9999px" }}>
   
   {/* Animated moving borders */}
   <div className="absolute inset-0" style={{ borderRadius: "9999px" }}>
     <MovingBorder duration={5000} rx="50%" ry="50%">
-      <div className="h-32 w-32 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-72 lg:w-72 bg-[radial-gradient(#e90e12_40%,transparent_60%)] opacity-80" />
-    </MovingBorder>
-  </div>
-  <div className="absolute inset-0" style={{ borderRadius: "9999px" }}>
-    <MovingBorder duration={5000} rx="50%" ry="50%">
-      <div className="h-32 w-32 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-72 lg:w-72 bg-[radial-gradient(#e90e12_40%,transparent_60%)] opacity-80" />
+      <div className="h-32 w-32 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-72 lg:w-72 bg-[radial-gradient(#93b7ed_40%,transparent_60%)] opacity-80" />
     </MovingBorder>
   </div>
 

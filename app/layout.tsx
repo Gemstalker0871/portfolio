@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import Head from "next/head";
 
 import { JetBrains_Mono } from "next/font/google";
 
@@ -23,7 +24,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sambhav's Portfolio",
   description: "Modern coding enthusiast",
+  icons: {
+    icon: "/logo.png", // ✅ favicon for App Router
+  },
 };
+
 
 export default function RootLayout({
   children,
