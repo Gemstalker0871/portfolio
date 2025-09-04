@@ -7,6 +7,7 @@ const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -26,6 +27,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+      jetbrains: ["var(--font-jetbrains-mono)"], // body
+      geist: ["var(--font-geist-sans)"],         // headings
+      geistMono: ["var(--font-geist-mono)"],     // code
+    },
       colors: {
         black: {
           DEFAULT: "#000",

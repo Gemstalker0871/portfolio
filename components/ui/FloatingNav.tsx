@@ -2,7 +2,7 @@
 import { ReactElement } from "react";
 
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   motion,
   AnimatePresence,
@@ -25,7 +25,7 @@ export const FloatingNav = ({
 }) => {
   const { scrollYProgress } = useScroll();
 
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     // Check if current is not undefined and is a number
@@ -43,6 +43,13 @@ export const FloatingNav = ({
       }
     }
   });
+
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      // If phone/tablet (< md breakpoint), start hidden
+      setVisible(false);
+    }
+  }, []);
 
   return (
     <AnimatePresence mode="wait">
