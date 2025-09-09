@@ -44,20 +44,20 @@ const Hero = () => {
     />
 
     <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-      Hey there, I&apos;m an amazing &#40;Honestly&#41; developer based in India
+      Not to brag, but my code sometimes runs on the first try. I&apos;m based out of India.
     </p>
 
      <div className="flex gap-4 mt-4">
     <a href="#projects">
       <MagicButton
-        title="See Some Of My Work"
+        title="See some of my work"
         icon={<FaLocationArrow />}
         position="right"
       />
     </a>
     <a target="_blank" href="https://drive.google.com/file/d/1d9INmPZ2fdiEUKpz7HyQOHE17hILkNZo/view?usp=sharing">
       <MagicButton
-        title="Download My Resume"
+        title="Download my resume"
         icon={<FaDownload />}
         position="right"
       />
