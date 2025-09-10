@@ -9,7 +9,7 @@ const RecentProjects = () => {
     <div className='py-20' id='projects'>
         <h1 className='heading'>
             A small selection of {' '}
-            <span className='text-purple'>Recent Projects</span>
+            <span className='text-purple'>recent projects</span>
 
         </h1>
         <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
@@ -17,7 +17,7 @@ const RecentProjects = () => {
                 <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     <PinContainer title={link} href={link}> 
                         <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10'>
-                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
+                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#111111]'>
                                 <img src="/bg.png" alt="" />
                             </div>
                             <img src={img} alt="" className='z-10 absolute bottom-0' />
@@ -38,7 +38,7 @@ const RecentProjects = () => {
                             </div>
                             <div className='flex justify-center items-center'>
                                 <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
-                                <FaLocationArrow className='ms-3' color='#CBACF9' />
+                                <FaLocationArrow className='ms-3' color='#c4204b' />
                             </div>
                         </div>
                     </PinContainer>

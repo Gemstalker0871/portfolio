@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
 
-        <div className="flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 absolute top-0 left-0">
+        <div className="flex h-screen w-full items-center justify-center bg-white dark:bg-black absolute top-0 left-0">
             <div
                 className={cn(
                 "absolute inset-0",
@@ -26,7 +26,7 @@ const Hero = () => {
                 )}
             />
             {/* Radial gradient for the container to give a faded look */}
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black-100"></div>
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)] dark:bg-black"></div>
            
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center relative my-20 z-10 gap-10 -mt-10">
@@ -40,11 +40,11 @@ const Hero = () => {
 
     <TextGenerateEffect
       className="text-center md:text-left text-[40px] md:text-5xl lg:text-6xl"
-      words="Hello I&apos;m Sambhav Chugh"
+      words="Hello, I&apos;m Sambhav Chugh"
     />
 
     <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-      Not to brag, but my code sometimes runs on the first try. I&apos;m based out of India.
+      Not to brag, but my code sometimes runs on the first try.
     </p>
 
      <div className="flex gap-4 mt-4">
@@ -57,7 +57,7 @@ const Hero = () => {
     </a>
     <a target="_blank" href="https://drive.google.com/file/d/1d9INmPZ2fdiEUKpz7HyQOHE17hILkNZo/view?usp=sharing">
       <MagicButton
-        title="Download my resume"
+        title="See my resume"
         icon={<FaDownload />}
         position="right"
       />
@@ -72,7 +72,7 @@ const Hero = () => {
   {/* Animated moving borders */}
   <div className="absolute inset-0" style={{ borderRadius: "9999px" }}>
     <MovingBorder duration={5000} rx="50%" ry="50%">
-      <div className="h-32 w-32 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-72 lg:w-72 bg-[radial-gradient(#93b7ed_40%,transparent_60%)] opacity-80" />
+      <div className="h-32 w-32 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-72 lg:w-72 bg-[radial-gradient(#ef4444_40%,transparent_60%)] opacity-80" />
     </MovingBorder>
   </div>
 

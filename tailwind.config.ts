@@ -33,12 +33,7 @@ const config = {
       geistMono: ["var(--font-geist-mono)"],     // code
     },
       colors: {
-        black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
-        },
+        
         white: {
           DEFAULT: "#FFF",
           100: "#BEC1DD",
@@ -47,7 +42,7 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: "#c4204b",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
