@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritise client collaboration, fostering open communication, and coffee :) ",
+    title:
+      "I prioritise client collaboration, fostering open communication, and coffee :) ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -75,7 +76,14 @@ export const projects = [
     title: "MindsSpring - A LMS site",
     des: "An intuitive platform for learning, tracking progress, and managing courses online..",
     img: "/Project1LLM.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/node.svg", "/mongo.svg", "/exp.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/node.svg",
+      "/mongo.svg",
+      "/exp.svg",
+    ],
     link: "https://mind-spring-learning-managment-syst.vercel.app/",
   },
   {
@@ -83,7 +91,14 @@ export const projects = [
     title: "Murmur - Chatting Application",
     des: "A real-time messaging app with video calls and group chat capabilities.",
     img: "/Project2Murmur.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/node.svg", "/mongo.svg", "/exp.svg"],
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/node.svg",
+      "/mongo.svg",
+      "/exp.svg",
+    ],
     link: "https://murmur-s45i.onrender.com/",
   },
   {
@@ -102,7 +117,14 @@ export const projects = [
     iconLists: ["/js.svg", "/html.svg", "/css.svg"],
     link: "https://magenta-pony-955cf2.netlify.app/",
   },
-  
+  {
+    id: 5,
+    title: "VibeCasa",
+    des: "An AI tool that can generate 3D top-down room visualizations, making it easier to visualize interior layouts and design concepts in seconds.",
+    img: "/Project6vibecasa.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/puter.svg"],
+    link: "https://vibe-casa.vercel.app/",
+  },
 ];
 
 export const testimonials = [
@@ -206,16 +228,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/Gemstalker0871"
+    link: "https://github.com/Gemstalker0871",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link:"https://x.com/SambhavChugh"
+    link: "https://x.com/SambhavChugh",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/sambhavchugh/"
+    link: "https://www.linkedin.com/in/sambhavchugh/",
   },
 ];
