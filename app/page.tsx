@@ -13,8 +13,8 @@ import HeroSecond from "@/components/HeroSecond";
 
 export default function Home() {
   return (
-    <main className="relative bg-black flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
-      
+    <main className="relative bg-white flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
+      {/* Theme Changer bg-black to white */}
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
@@ -24,7 +24,6 @@ export default function Home() {
         <Experience />
         {/* <Approach /> */}
         <Footer />
-        
       </div>
     </main>
   );

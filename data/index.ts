@@ -11,7 +11,9 @@ export const gridItems = [
     title:
       "I prioritise client collaboration, fostering open communication, and coffee :) ",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className:
+      "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white",
+    // Theme change added text colour
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.png",
@@ -39,7 +41,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Passion meets pixels — busy creating stuff that actually works.",
+    title: "Passion meets Pixels: creating stuff that actually works.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -73,6 +75,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Layoffs Analysis",
+    des: "This project analyzes global layoffs using SQL.",
+    img: "/sql.png",
+    iconLists: ["/mysql.svg"],
+    link: "https://github.com/Gemstalker0871/Layoffs-Analysis",
+  },
+  {
+    id: 2,
     title: "MindsSpring - A LMS site",
     des: "An intuitive platform for learning, tracking progress, and managing courses online..",
     img: "/Project1LLM.png",
@@ -87,7 +97,7 @@ export const projects = [
     link: "https://mind-spring-learning-managment-syst.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Murmur - Chatting Application",
     des: "A real-time messaging app with video calls and group chat capabilities.",
     img: "/Project2Murmur.png",
@@ -102,21 +112,14 @@ export const projects = [
     link: "https://murmur-s45i.onrender.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "BugByte - AI Code Reviewer",
     des: "An intelligent tool that analyzes code and provides real-time feedback and suggestions.",
     img: "/Project5AiCode.png",
     iconLists: ["/re.svg", "/js.svg", "/node.svg", "/exp.svg", "/gemini.svg"],
     link: "https://bugbyte.onrender.com/p",
   },
-  {
-    id: 4,
-    title: "Pokedex",
-    des: "A digital encyclopedia to explore, search, and learn about all Pokémon species.",
-    img: "/Project4Pokedex.png",
-    iconLists: ["/js.svg", "/html.svg", "/css.svg"],
-    link: "https://magenta-pony-955cf2.netlify.app/",
-  },
+
   {
     id: 5,
     title: "VibeCasa",
@@ -196,33 +199,66 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Development",
-    desc: " Proficient in HTML, CSS, Tailwind, JavaScript, and React.js, with experience in WordPress development.",
+    title: "Web Development",
+    desc: " Proficient in Javascript, Tailwind, JavaScript, and React.js, with experience in WordPress development with skills in Node.js, Express.js, PHP, and working with MySQL and MongoDB databases.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Backend Development",
-    desc: "Skilled in Node.js, Express.js, PHP, and working with MySQL and MongoDB databases.",
+    title: "Programming",
+    desc: "Experienced in C, C++ with a strong understanding of data structures and algorithms, Python, and Java.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Programming",
-    desc: "Experienced in C, C++ with a strong understanding of data structures and algorithms, Python, and Java.",
+    title: "Data Analytics",
+    desc: "Skilled in SQL, Excel, Python, Power BI, and Tableau for data cleaning, visualization, dashboard creation, and generating business insights.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Designing",
-    desc: " Adept at using Photoshop, Canva, and Figma for graphic and UI/UX design.",
+    title: "Business & Design",
+    desc: " Adept in Canva, Figma, and Photoshop for creating presentations, marketing materials, business reports, banners, and UI/UX designs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
 ];
+
+//Theme Change fromt this
+
+// export const workExperience = [
+//   {
+//     id: 1,
+//     title: "Frontend Development",
+//     desc: " Proficient in HTML, CSS, Tailwind, JavaScript, and React.js, with experience in WordPress development.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp1.svg",
+//   },
+//   {
+//     id: 2,
+//     title: "Backend Development",
+//     desc: "Skilled in Node.js, Express.js, PHP, and working with MySQL and MongoDB databases.",
+//     className: "md:col-span-2", // change to md:col-span-2
+//     thumbnail: "/exp2.svg",
+//   },
+//   {
+//     id: 3,
+//     title: "Programming",
+//     desc: "Experienced in C, C++ with a strong understanding of data structures and algorithms, Python, and Java.",
+//     className: "md:col-span-2", // change to md:col-span-2
+//     thumbnail: "/exp3.svg",
+//   },
+//   {
+//     id: 4,
+//     title: "Designing",
+//     desc: " Adept at using Photoshop, Canva, and Figma for graphic and UI/UX design.",
+//     className: "md:col-span-2",
+//     thumbnail: "/exp4.svg",
+//   },
+// ];
 
 export const socialMedia = [
   {

@@ -29,7 +29,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -37,15 +36,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jetBrainsMono.variable} ${geistSans.variable} ${geistMono.variable} font-jetbrains bg-background text-foreground`}>
+      <body
+        className={`${jetBrainsMono.variable} ${geistSans.variable} ${geistMono.variable} font-jetbrains bg-background text-foreground`}
+      >
         <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
