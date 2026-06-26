@@ -64,7 +64,8 @@ export const gridItems = [
     id: 6,
     title: "Ready to brainstorm the next big thing together?",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
+    //Theme change just added the "text-white"
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -76,14 +77,14 @@ export const projects = [
   {
     id: 1,
     title: "Layoffs Analysis",
-    des: "This project analyzes global layoffs using SQL.",
+    des: "This project analyzes global layoffs using MySQL.",
     img: "/sql.png",
     iconLists: ["/mysql.svg"],
     link: "https://github.com/Gemstalker0871/Layoffs-Analysis",
   },
   {
     id: 2,
-    title: "MindsSpring - A LMS site",
+    title: "MindsSpring - An LMS site",
     des: "An intuitive platform for learning, tracking progress, and managing courses online..",
     img: "/Project1LLM.png",
     iconLists: [

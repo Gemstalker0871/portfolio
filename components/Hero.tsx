@@ -3,7 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from "./ui/Text-generate-effect";
 import MagicButton from "./ui/MagicButton";
-import { FaDownload, FaLocationArrow } from "react-icons/fa";
+import { FaDownload, FaLocationArrow, FaRegFileAlt } from "react-icons/fa";
 import { MovingBorder } from "./ui/MovingBorders";
 
 const Hero = () => {
@@ -47,8 +47,8 @@ const Hero = () => {
             />
 
             <p className="text-center md:text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Not to brag, but my code sometimes runs on the first try.Always
-              learning. Always building. Always curious.
+              Always learning. Always building. Always curious. And yes my code
+              sometimes runs on the first try.
             </p>
 
             <div className="flex gap-4 mt-4">
@@ -65,7 +65,7 @@ const Hero = () => {
               >
                 <MagicButton
                   title="See my resume"
-                  icon={<FaDownload />}
+                  icon={<FaRegFileAlt />}
                   position="right"
                 />
               </a>

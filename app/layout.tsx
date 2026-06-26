@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "Sambhav's Portfolio",
   description: "Modern coding enthusiast",
   icons: {
-    icon: "/logo.png", // ✅ favicon for App Router
+    icon: "/logo2.png", // ✅ favicon for App Router
   },
 };
 
